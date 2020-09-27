@@ -1,0 +1,33 @@
+.clients-list .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-list .link:hover,
+.clients-list .link:focus {
+  border-color: $accent-color;
+}
+
+.icon {
+  --color1: $client-logo;
+}
+
+.icon:hover {
+  --color2: $accent-color;
+  --color1: $accent-color;
+}
+
+.feature-list .item:not(:last-child),
+.examples-list .item:not(:last-child),
+.team .item:not(:last-child),
+.clients-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-list .item {
+  flex-basis: calc((100% - 5 * 30px) / 6);
+}

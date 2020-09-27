@@ -1,0 +1,70 @@
+/* футер подписка на рассылку */
+.footer-sighning {
+  display: block;
+}
+
+.subscription {
+  text-transform: uppercase;
+  color: $main-title-text-color;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.form-label-footer {
+  margin-bottom: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.form-input-footer {
+  height: 48px;
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 0 20px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sign-in-button {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: $accent-color;
+  padding-left: 29px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+
+.form-button-icon {
+  height: 35px;
+  width: 35px;
+  padding-left: 10px;
+  fill: var(--primary-white-color);
+}
+
+.form-window {
+  padding-right: 12px;
+}
