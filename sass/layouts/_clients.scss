@@ -10,15 +10,9 @@
 .clients-list .link:hover,
 .clients-list .link:focus {
   border-color: $accent-color;
-}
-
-.icon {
-  --color1: $client-logo;
-}
-
-.icon:hover {
-  --color2: $accent-color;
-  --color1: $accent-color;
+  --color1: #2196f3;
+  --color2: #2196f3;
+  transition-duration: 250ms;
 }
 
 .feature-list .item:not(:last-child),

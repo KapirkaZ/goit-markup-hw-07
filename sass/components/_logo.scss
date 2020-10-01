@@ -19,3 +19,32 @@
 button {
   font-family: inherit;
 }
+
+.footer-contacts .link {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.page-footer {
+  background-color: $footer-bg-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.page-footer .flexbox {
+  align-items: baseline;
+}
+
+.footer-logo {
+  color: $main-title-text-color;
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-header {
+  color: $accent-color;
+}

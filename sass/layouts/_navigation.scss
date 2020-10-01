@@ -2,10 +2,6 @@
   display: flex;
 }
 
-.main-nav {
-  display: flex;
-}
-
 .site-nav .link {
   color: $title-text-color;
 
@@ -51,13 +47,7 @@
   list-style: none;
 }
 
-.site-info {
-  display: flex;
-}
 
-.site-info .item {
-  margin-right: 50px;
-}
 
 .site-info .item:last-child {
   margin-left: 0px;
