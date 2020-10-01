@@ -25,14 +25,15 @@ ul {
   padding-right: 15px;
 }
 
-.flexbox {
-  display: flex;
-}
-
 /* Main nav */
 
 .main-nav {
   display: flex;
   align-items: center;
   margin-right: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }

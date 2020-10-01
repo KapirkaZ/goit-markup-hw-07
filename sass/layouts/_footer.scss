@@ -1,4 +1,10 @@
 /* футер подписка на рассылку */
+.page-footer {
+  background-color: $footer-bg-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer-sighning {
   display: block;
 }
@@ -38,25 +44,7 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.sign-in-button {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: $accent-color;
-  padding-left: 29px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-}
+
 
 .form-button-icon {
   height: 35px;
