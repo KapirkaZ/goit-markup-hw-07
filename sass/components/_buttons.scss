@@ -60,3 +60,10 @@ button {
   border: none;
   cursor: pointer;
 }
+
+.form-button-icon {
+  height: 35px;
+  width: 35px;
+  padding-left: 10px;
+  fill: var(--primary-white-color);
+}

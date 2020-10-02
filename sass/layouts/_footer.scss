@@ -44,15 +44,30 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-
-
-.form-button-icon {
-  height: 35px;
-  width: 35px;
-  padding-left: 10px;
-  fill: var(--primary-white-color);
-}
-
 .form-window {
   padding-right: 12px;
+}
+
+// адрес
+
+.footer-address {
+  margin-top: 20px;
+  font-style: normal;
+}
+
+.footer-info {
+  width: 270px;
+  margin-right: 70px;
+}
+
+.footer-address .link {
+  display: inline-block;
+}
+
+.footer-address .text {
+  margin: 0;
+}
+
+.footer-address .adres {
+  margin: 0;
 }
